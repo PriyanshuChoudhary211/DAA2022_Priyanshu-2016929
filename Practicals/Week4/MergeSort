@@ -21,14 +21,14 @@ void merge(int arr[], int l , int m, int h)
 }
 void mergeSort(int arr[],int l,int h)
 {
-    if(l<h)
-    {
+   // if(l<h)
+   // {
         int mid = l + (h-l)/2;
-        mergeSort(arr,l,mid);
+     //   mergeSort(arr,l,mid);
         mergeSort(arr,mid+1,h);
 
         merge(arr,l,mid,h);
-    }
+   // }
 
 
 }
